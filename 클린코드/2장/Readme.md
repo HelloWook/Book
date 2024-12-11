@@ -109,3 +109,12 @@ const getFlagged = () => {
 문제 영역 이름은 비즈니스 로직 또는 문제 도메인에서 친숙한 단어를 사용.
 예: processOrder, calculateTax, updateAccountBalance.
 ```
+
+### 의미 있는 맥락을 추가하라
+
+- address,city 좋은 변수명이지만 이때 접두어를 붙여서 사용한다면 더욱 맥락적으로 분명해질 수 있다
+
+### 불필요한 맥락을 없에라
+
+- 일반적으로 짧은 이름이 긴이름보다 좋다.
+- `GSDgsdAdress`와 `GSDMailingAdress` 둘은 필요한 중복을 가진다. `mailingAddress` 와 `accountAdress`가 더욱 직관적이고 좋은 이름이다.
