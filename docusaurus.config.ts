@@ -16,7 +16,7 @@ const config: Config = {
 
   noIndex: true,
   
-  url: "https://wcm-document-2mi.pages.dev",
+  url: "https://wook-read-book.vercel.app",
   
   
   baseUrl: "/",
@@ -42,7 +42,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          // editUrl: "https://github.com/your-username/your-repo",
+          editUrl: "https://github.com/HelloWook/Book",
         },
         blog: {
           showReadingTime: true,
@@ -50,7 +50,7 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          // editUrl: "https://github.com/your-username/your-repo",
+          editUrl: "https://github.com/HelloWook/Book",
         },
         theme: {
           customCss: "./src/css/custom.css",
